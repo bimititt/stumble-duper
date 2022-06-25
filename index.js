@@ -40,7 +40,9 @@ Features :
 3. ${chalk.cyan('Round 1')}
 4. ${chalk.cyan('Die At Round 1')}
 `);
-    console.log(chalk.blue(`[ ${moment().format('HH:mm:ss')} ] Follow Tiktok wfrrsss !`));
+    console.log(chalk.Bgblue(`[ ${moment().format('HH:mm:ss')} ] Follow Tiktok wfrrsss !`));
+    console.log(chalk.red(`[ ${moment().format('HH:mm:ss')} ] Use This Script At 11.00 AM ++ !`));
+
 
     const feature = rs.question('[+] Enter Round You Elemination : ');
 
