@@ -31,7 +31,7 @@ const GoStumble = (code, auth) => new Promise((resolve, reject) => {
      ██    ██    ██    ██ ██  ██  ██ ██   ██ ██      ██            
 ███████    ██     ██████  ██      ██ ██████  ███████ ███████    
 
-By : ${chalk.green('@Bimititt')} - ${chalk.yellow('Play This Script At 11.00 - 16.00')}
+By : ${chalk.green('@Bimititt')} - ${chalk.yellow('Stumble Guys Duper')}
 
 Features :
 
