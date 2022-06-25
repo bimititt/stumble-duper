@@ -40,6 +40,7 @@ Features :
 3. ${chalk.cyan('Round 1')}
 4. ${chalk.cyan('Die At Round 1')}
 `);
+    console.log(chalk.Bgblue('Follow Tiktok Lixi ( wfrrsss ) ')
 
     const feature = rs.question('[+] Enter Round You Elemination : ');
 
