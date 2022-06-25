@@ -25,43 +25,28 @@ const GoStumble = (code, auth) => new Promise((resolve, reject) => {
 (async () => {
 
     console.log(`
-:::!~!!!!!:.
-                  .xUHWH!! !!?M88WHX:.
-                .X*#M@$!!  !X!M$$$$$$WWx:.
-               :!!!!!!?H! :!$!$$$$$$$$$$8X:
-              !!~  ~:~!! :~!$!#$$$$$$$$$$8X:
-             :!~::!H!<   ~.U$X!?R$$$$$$$$MM!
-             ~!~!!!!~~ .:XW$$$U!!?$$$$$$RMM!
-               !:~~~ .:!M"T#$$$$WX??#MRRMMM!
-               ~?WuxiW*`   `"#$$$$8!!!!??!!!
-             :X- M$$$$       `"T#$T~!8$WUXU~
-            :%`  ~#$$$m:   ●    ~!~ ?$$$$$$
-          :!`.-   ~T$$$$8xx.  .xWW- ~""##*"
-.....   -~~:<` !    ~?T#$$@@W@*?$$  ●   /`
-W$@@M!!! .!~~ !!     .:XUW$W!~ `"~:    :
-#"~~`.:x%`!!  !H:   !WM$$$$Ti.: .!WUn+!`
-:::~:!!`:X~ .: ?H.!u "$$$B$$$!W:U!T$$M~
-.~~   :X@!.-~   ?@WTWo("*$$$W$TH$! `
-Wi.~!X$?!-~    : ?$$$B$Wu("**$RM!
-$R@i.~~ !     :   ~$$$$$B$$en:``
-?MXT@Wx.~    :     ~"##*$$$$M~
+███████ ████████ ██    ██ ███    ███ ██████  ██      ███████
+██         ██    ██    ██ ████  ████ ██   ██ ██      ██
+███████    ██    ██    ██ ██ ████ ██ ██████  ██      █████
+     ██    ██    ██    ██ ██  ██  ██ ██   ██ ██      ██
+███████    ██     ██████  ██      ██ ██████  ███████ ██████
 
 By : ${chalk.green('@Bimititt')} - ${chalk.yellow('Stumble Guys Duper')}
 
 Features :
 
-1. ${chalk.magenta('Reward : 1 Crown + 30 Trophy + 35 Star ( Stumble Pass ) + 3000 EXP')}
-2. ${chalk.magenta('Reward : 20 Trophy + 30 Star ( Stumble Pass ) + 1500 EXP')}
-3. ${chalk.magenta('Reward : 10 Trophy + 25 Star ( Stumble Pass ) + 500 EXP')}
-4. ${chalk.magenta('Reward : 20 Star ( Stumble Pass ) + 100 EXP')}
+1. ${chalk.cyan('Round 3 Winner')}
+2. ${chalk.cyan('Round 2')}
+3. ${chalk.cyan('Round 1')}
+4. ${chalk.cyan('Die At Round 1')}
 `);
 
-    const feature = rs.question('[+] Enter feature needed : ');
+    const feature = rs.question('[+] Enter Round You Elemination : ');
 
     if (feature == '1') {
 
         const auth = rs.question('[+] Enter your auth token : ');
-        const time = rs.question('[+] Enter Delay in milisecond ( Ex : 1000 = 1 sec ) : ');
+        const time = rs.question('[+] Enter Delay in Milisecond ( Ex : 1000 = 1 sec ) : ');
         console.log('');
 
         while (true) {
