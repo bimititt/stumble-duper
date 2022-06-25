@@ -30,7 +30,7 @@ const GoStumble = (code, auth) => new Promise((resolve, reject) => {
 ███████    ██    ██    ██ ██ ████ ██ ██████  ██      █████
      ██    ██    ██    ██ ██  ██  ██ ██   ██ ██      ██
 ███████    ██     ██████  ██      ██ ██████  ███████ ██████
-✰99999999✰
+
 
 By : ${chalk.green('@Lixi Kece')} - ${chalk.yellow('Stumble Guys Duper')}
 
@@ -41,7 +41,7 @@ Features :
 3. ${chalk.cyan('Round 1')}
 4. ${chalk.cyan('Die At Round 1')}
 `);
-    console.log(chalk.blue(`[ ${moment().format('HH:mm:ss')} ] Follow Tiktok wfrrsss !`));
+    console.log(chalk.blue(`[ ${moment().format('HH:mm:ss')} ] This Script Risk Ban  ✰✰✰ !`));
     console.log(chalk.cyan(`[ ${moment().format('HH:mm:ss')} ] Use This Script At 11.00 AM ++ !`));
 
 
