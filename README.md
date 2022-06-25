@@ -1,6 +1,6 @@
 # stumble-duper
 
-Stumble Dupe Crown / Trophy Android Termux By Bimititt / Lixi
+Stumble Dupe Crown / Trophy Termux By Bimititt / Lixi
 
 This Stumble Dupe Insipartion By " X NOREALS "
 
