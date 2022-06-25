@@ -41,7 +41,7 @@ Features :
 4. ${chalk.cyan('Die At Round 1')}
 `);
     console.log(chalk.blue(`[ ${moment().format('HH:mm:ss')} ] Follow Tiktok wfrrsss !`));
-    console.log(chalk.red(`[ ${moment().format('HH:mm:ss')} ] Use This Script At 11.00 AM ++ !`));
+    console.log(chalk.cyan(`[ ${moment().format('HH:mm:ss')} ] Use This Script At 11.00 AM ++ !`));
 
 
     const feature = rs.question('[+] Enter Round You Elemination : ');
@@ -58,7 +58,7 @@ Features :
             const result = await GoStumble(code, auth);
             if (!result) {
 
-                console.log(chalk.blue(`[ ${moment().format('HH:mm:ss')} ] Expired Cookie !`));
+                console.log(chalk.red(`[ ${moment().format('HH:mm:ss')} ] Expired Cookie !`));
                 break;
 
             } else if (result.includes('User')) {
@@ -76,7 +76,7 @@ Features :
 
             } else if (result == 'BANNED') {
 
-                console.log(chalk.red(`[ ${moment().format('HH:mm:ss')} ] Your Account Has Banned !`));
+                console.log(chalk.red(`[ ${moment().format('HH:mm:ss')} ] Your Account Rest In Peace !`));
                 break;
                 
             } else if (result == 'SERVER_ERROR') {
@@ -115,7 +115,7 @@ Features :
                 
             } else if (result == 'BANNED') {
 
-                console.log(chalk.red(`[ ${moment().format('HH:mm:ss')} ] Your Account Has Banned !`));
+                console.log(chalk.red(`[ ${moment().format('HH:mm:ss')} ] Your Account Rest In Peace !`));
                 break;
                 
             } else if (result == 'SERVER_ERROR') {
@@ -137,7 +137,7 @@ Features :
             const result = await GoStumble(code, auth);
             if (!result) {
 
-                console.log(chalk.red(`[ ${moment().format('HH:mm:ss')} ] Wrong cookie or Expired cookie !`));
+                console.log(chalk.red(`[ ${moment().format('HH:mm:ss')} ] Expired cookie !`));
                 break;
 
             } else if (result.includes('User')) {
@@ -154,7 +154,7 @@ Features :
                 
             } else if (result == 'BANNED') {
 
-                console.log(chalk.red(`[ ${moment().format('HH:mm:ss')} ] Your Account Has Banned !`));
+                console.log(chalk.red(`[ ${moment().format('HH:mm:ss')} ] Your Account Rest In Peace !`));
                 break;
                 
             } else if (result == 'SERVER_ERROR') {
@@ -192,7 +192,7 @@ Features :
                 
             } else if (result == 'BANNED') {
 
-                console.log(chalk.red(`[ ${moment().format('HH:mm:ss')} ] Your Account Has Banned !`));
+                console.log(chalk.red(`[ ${moment().format('HH:mm:ss')} ] Your Account Rest In Peace !`));
                 break;
                 
             } else if (result == 'SERVER_ERROR') {
