@@ -32,9 +32,9 @@ const GoStumble = (code, auth) => new Promise((resolve, reject) => {
 ███████    ██     ██████  ██      ██ ██████  ███████ ██████
 
 ╔═════════════════════════════════════════════════╗
-║   [•] Authour : Lixi / Bimititt                          ║
-║   [•] Github : https://github.com/bimit                  ║
-╚═════════════════════════════════════════════════╝')
+║   [•] Authour : Lixi / Bimititt                          
+║   [•] Github : https://github.com/bimit                  
+╚═════════════════════════════════════════════════╝
 
 Features :
 
