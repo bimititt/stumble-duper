@@ -31,21 +31,23 @@ const GoStumble = (code, auth) => new Promise((resolve, reject) => {
      ██    ██    ██    ██ ██  ██  ██ ██   ██ ██      ██
 ███████    ██     ██████  ██      ██ ██████  ███████ ██████
 
-
-By : ${chalk.green('@Lixi Kece')} - ${chalk.yellow('Stumble Guys Duper')}
+╔═════════════════════════════════════════════════╗
+║   [•] Authour : Lixi / Bimititt                          ║
+║   [•] Github : https://github.com/bimit                  ║
+╚═════════════════════════════════════════════════╝')}
 
 Features :
 
-1. ${chalk.cyan('Round 3 Winner')}
-2. ${chalk.cyan('Round 2')}
-3. ${chalk.cyan('Round 1')}
-4. ${chalk.cyan('Die At Round 1')}
+1. ${chalk.cyan('Menang Dapat 1 Crown')}
+2. ${chalk.cyan('Dapat 20 Trophy')}
+3. ${chalk.cyan('Dapat 10 Trophy')}
+4. ${chalk.cyan('Dapat Pass Star Sama EXP')}
 `);
-    console.log(chalk.blue(`[ ${moment().format('HH:mm:ss')} ] This Script Risk Ban  ✰✰✰ !`));
+    console.log(chalk.blue(`[ ${moment().format('HH:mm:ss')} ] This Script Have Risk Ban !`));
     console.log(chalk.cyan(`[ ${moment().format('HH:mm:ss')} ] Use This Script At 11.00 AM ++ !`));
 
 
-    const feature = rs.question('[+] Enter Round You Elemination : ');
+    const feature = rs.question('[+] Masukkan Round : ');
 
     if (feature == '1') {
 
